@@ -1,5 +1,5 @@
 # baseURL = "https://example.org/"
-baseURL = "https://autoseccafe.pages.com/"    # 取消注释并更新为您的新域名
+baseURL = "https://autoseccafe.pages.dev/"    # 取消注释并更新为您的新域名
 languageCode = "en-us"
 title = "Auto CyberSec Cafe"
 theme = "PaperMod"
