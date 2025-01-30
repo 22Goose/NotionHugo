@@ -2,6 +2,10 @@
 languageCode = "en-us"
 title = "Auto CyberSec Cafe"
 theme = "PaperMod"
+# Favicon 设置
+ assets:
+   favicon = "/img/favicon.ico"
+   apple_touch_icon = "/img/apple-touch-icon.png"
 
 [params]
   defaultTheme = "auto"
@@ -29,10 +33,6 @@ theme = "PaperMod"
     lang = "en"                                         # 语言
     theme = "preferred_color_scheme"                    # 主题跟随系统
 
-  # Favicon 设置
-  assets:
-    favicon = "/img/favicon.ico"
-    apple_touch_icon = "/img/apple-touch-icon.png"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # 添加 JSON 输出，用于搜索功能
