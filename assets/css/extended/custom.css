@@ -1,0 +1,7 @@
+.entry-header .entry-image-link .entry-cover {
+    border-radius: 0;    /* 移除圆角 */
+}
+
+.profile img {
+    border-radius: 0;    /* 移除个人资料页面头像的圆角 */
+} 
