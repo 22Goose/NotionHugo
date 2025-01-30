@@ -3,64 +3,37 @@ languageCode = "en-us"
 title = "Auto CyberSec Cafe"
 theme = "PaperMod"
 
-# 语言设置
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-    title = "Auto CyberSec Cafe"
-    contentDir = "content"
-    
-    [languages.en.params]
-      defaultTheme = "auto"
-      ShowShareButtons = true
-      ShowToc = true
-      ShowReadingTime = true
-      ShowBreadCrumbs = true
+[params]
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowToc = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  
+  # 添加搜索功能配置
+  ShowSearchButton = true
+  
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # 添加 JSON 输出，用于搜索功能
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts/"
-        weight = 10
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
-        weight = 15
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about/"
-        weight = 30
-
-  [languages.zh]
-    languageName = "中文"
-    weight = 2
-    title = "Auto CyberSec Cafe"
-    contentDir = "content"
-    
-    [languages.zh.params]
-      defaultTheme = "auto"
-      ShowShareButtons = true
-      ShowToc = true
-      ShowReadingTime = true
-      ShowBreadCrumbs = true
-
-    [languages.zh.menu]
-      [[languages.zh.menu.main]]
-        identifier = "posts"
-        name = "文章"
-        url = "/posts/"
-        weight = 10
-      [[languages.zh.menu.main]]
-        identifier = "tags"
-        name = "标签"
-        url = "/tags/"
-        weight = 15
-      [[languages.zh.menu.main]]
-        identifier = "about"
-        name = "关于"
-        url = "/about/"
-        weight = 30
+[menu]
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 5
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 15
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
