@@ -29,33 +29,10 @@ theme = "PaperMod"
     lang = "en"                                         # 语言
     theme = "preferred_color_scheme"                    # 主题跟随系统
 
-  # 添加个人资料配置
-  [params.profileMode]
-    enabled = true
-    title = "Auto CyberSec Cafe"
-    # subtitle = "Your subtitle here"
-    imageUrl = "/img/avatar.png"    # 头像图片路径
-    imageWidth = 120                 # 图片宽度
-    imageHeight = 120                # 图片高度
-    
-    [[params.profileMode.buttons]]
-      name = "Posts"
-      url = "/posts"
-    
-    [[params.profileMode.buttons]]
-      name = "Tags"
-      url = "/tags"
-    
-    [[params.profileMode.buttons]]
-      name = "About"
-      url = "/about"
-
   # Favicon 设置
   assets:
-    favicon = "/favicon.ico"
-    favicon16x16 = "/favicon-16x16.png"
-    favicon32x32 = "/favicon-32x32.png"
-    apple_touch_icon = "/apple-touch-icon.png"
+    favicon = "/img/favicon.ico"
+    apple_touch_icon = "/img/apple-touch-icon.png"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # 添加 JSON 输出，用于搜索功能
