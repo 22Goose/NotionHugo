@@ -2,10 +2,6 @@
 languageCode = "en-us"
 title = "Auto CyberSec Cafe"
 theme = "PaperMod"
-# Favicon 设置
- assets:
-   favicon = "/img/favicon.ico"
-   apple_touch_icon = "/img/apple-touch-icon.png"
 
 [params]
   defaultTheme = "auto"
@@ -20,6 +16,11 @@ theme = "PaperMod"
   # 添加评论功能配置
   comments = true
   
+  # Favicon 设置
+  [params.assets]
+    favicon = "/img/favicon.ico"
+    apple_touch_icon = "/img/apple-touch-icon.png"
+  
   # Giscus 配置
   [params.giscus]
     repo = "your-github-user/your-repo-name"            # 替换为您的 GitHub 仓库
@@ -32,7 +33,6 @@ theme = "PaperMod"
     inputPosition = "bottom"                            # 评论框位置
     lang = "en"                                         # 语言
     theme = "preferred_color_scheme"                    # 主题跟随系统
-
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # 添加 JSON 输出，用于搜索功能
