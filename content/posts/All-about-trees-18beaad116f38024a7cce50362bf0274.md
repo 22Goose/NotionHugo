@@ -1,8 +1,8 @@
 ---
 title: "All about trees"
 date: "2025-01-30T10:43:00.000Z"
-lastmod: "2025-01-30T10:43:00.000Z"
-draft: true
+lastmod: "2025-01-30T11:02:00.000Z"
+draft: false
 series:
   - "getting-start"
 authors:
@@ -15,7 +15,7 @@ NOTION_METADATA:
   object: "page"
   id: "18beaad1-16f3-8024-a7cc-e50362bf0274"
   created_time: "2025-01-30T10:43:00.000Z"
-  last_edited_time: "2025-01-30T10:43:00.000Z"
+  last_edited_time: "2025-01-30T11:02:00.000Z"
   created_by:
     object: "user"
     id: "6ad38be0-9044-4064-833a-d9d509c5d930"
@@ -40,7 +40,7 @@ NOTION_METADATA:
     draft:
       id: "JiWU"
       type: "checkbox"
-      checkbox: true
+      checkbox: false
     authors:
       id: "bK%3B%5B"
       type: "people"
@@ -74,7 +74,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2025-01-30T10:43:00.000Z"
+      last_edited_time: "2025-01-30T11:02:00.000Z"
     summary:
       id: "x%3AlD"
       type: "rich_text"
