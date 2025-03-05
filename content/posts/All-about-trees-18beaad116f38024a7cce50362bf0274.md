@@ -1,7 +1,7 @@
 ---
 title: "All about trees"
 date: "2025-01-30T10:43:00.000Z"
-lastmod: "2025-01-30T11:02:00.000Z"
+lastmod: "2025-03-05T06:53:00.000Z"
 draft: false
 series:
   - "getting-start"
@@ -15,7 +15,7 @@ NOTION_METADATA:
   object: "page"
   id: "18beaad1-16f3-8024-a7cc-e50362bf0274"
   created_time: "2025-01-30T10:43:00.000Z"
-  last_edited_time: "2025-01-30T11:02:00.000Z"
+  last_edited_time: "2025-03-05T06:53:00.000Z"
   created_by:
     object: "user"
     id: "6ad38be0-9044-4064-833a-d9d509c5d930"
@@ -74,7 +74,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2025-01-30T11:02:00.000Z"
+      last_edited_time: "2025-03-05T06:53:00.000Z"
     summary:
       id: "x%3AlD"
       type: "rich_text"
@@ -96,12 +96,20 @@ NOTION_METADATA:
             color: "default"
           plain_text: "All about trees"
           href: null
+    URL:
+      id: "75e4cb73-adc4-4834-905b-24642021de8f"
+      type: "url"
+      url: null
   url: "https://www.notion.so/All-about-trees-18beaad116f38024a7cce50362bf0274"
-  public_url: null
+  public_url: "https://sheer-tarsier-3ce.notion.site/All-about-trees-18beaad116f3\
+    8024a7cce50362bf0274"
 MANAGED_BY_NOTION_HUGO: true
 
 ---
 
 
 trees
+
+
+321
 
