@@ -40,7 +40,7 @@
     "@cloudflare/workers-types": "^4.20241230.0",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.10.3",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   }
 }
