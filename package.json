@@ -28,19 +28,19 @@
   ],
   "author": "HEIGE-PCloud",
   "dependencies": {
-    "@notionhq/client": "^2.2.15",
-    "dotenv": "^16.4.7",
+    "@notionhq/client": "^4.0.2",
+    "dotenv": "^17.2.1",
     "front-matter": "^4.0.2",
-    "fs-extra": "^11.2.0",
+    "fs-extra": "^11.3.1",
     "markdown-table": "^3.0.4",
-    "tsx": "^4.19.3",
-    "yaml": "^2.7.0"
+    "tsx": "^4.20.5",
+    "yaml": "^2.8.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241230.0",
+    "@cloudflare/workers-types": "^4.20250831.0",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^22.10.3",
-    "prettier": "^3.4.2",
-    "typescript": "^5.8.2"
+    "@types/node": "^24.3.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
   }
 }
